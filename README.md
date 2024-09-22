@@ -15,23 +15,12 @@ Ultimaker Cura was used to slice the .stl files into .gcode files.
 # Thumbsup files from qmk_firmware
 This should be a fork of an old branch on qmk_firmware, but I have yet to get a Git clone of the original branch with the Thumbsup folder in it to suck down properly.
 For whatever reason, Thumbsup was removed from the main branch on qmk_firmware's Git repository.
-I decided to make my own folder for everything needed for configuring and flashing a keymap onto a microcontroller and Thumbsup keyboard.
-The original qmk_firmware repository is quite large, and has hundreds of keyboards on it that you do not need the files to.
-I would recommend manually copying the folders that you need for the keyboards you have into a local qmk_firmware repository.
-Save you space, save you time, and be less bothered by downloading a ton of code/files you don't realistically need.
-Plus, someone getting into the keyboard making hobby might not be a programmer or is new to GitHub.
-I don't want people getting intimidated and giving up.
-Some people may not be too interested in coding, but still need to learn a little bit to get by.
+These are NOT all the files you need to have the qmk_firmware.
+You still need to clone the qmk_firmware somewhere.
+You will need to drop the entire 'thumbsup' folder into your qmk_firmware folder.
 
 # FOLDER STRUCTURE
-You could download the qmk_firmware respository for the rest of the files needed.
-I will fix this with a proper fork some day, but right now I just need to have these files available.
-
-/home/username/qmk_firmware/
-- thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
-
-c:\users\username\qmk_firmware\
-- thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
+Below are examples of where the thumbsup folder goes after you clone qmk_firmware.
 
 /home/username/qmk_firmware/keyboards/thumbsup/keymaps/default_5x12_v5_via/
 c:\users\username\keyboards\thumbsup\keymaps\default_5x12_v5_via\
@@ -39,3 +28,9 @@ c:\users\username\keyboards\thumbsup\keymaps\default_5x12_v5_via\
 - readme.md
 - rev5_promicro_unibody_5x12_via.json
 - rules.mk
+
+/home/username/qmk_firmware/
+- thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
+
+c:\users\username\qmk_firmware\
+- thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
