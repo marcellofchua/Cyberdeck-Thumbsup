@@ -22,3 +22,18 @@ Save you space, save you time, and be less bothered by downloading a ton of code
 Plus, someone getting into the keyboard making hobby might not be a programmer or is new to GitHub.
 I don't want people getting intimidated and giving up.
 Some people may not be too interested in coding, but still need to learn a little bit to get by.
+
+# FOLDER STRUCTURE
+You could download the qmk_firmware respository for the rest of the files needed.
+I will fix this with a proper fork some day, but right now I just need to have these files available.
+/home/username/qmk_firmware/
+- thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
+c:\users\username\qmk_firmware\thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
+- thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
+
+/home/username/qmk_firmware/keyboards/thumbsup/keymaps/default_5x12_v5_via/
+c:\users\username\keyboards\thumbsup\keymaps\default_5x12_v5_via\
+- keymap.c
+- readme.md
+- rev5_promicro_unibody_5x12_via.json
+- rules.mk
