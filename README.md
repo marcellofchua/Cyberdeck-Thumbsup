@@ -28,8 +28,7 @@ You could download the qmk_firmware respository for the rest of the files needed
 I will fix this with a proper fork some day, but right now I just need to have these files available.
 
 /home/username/qmk_firmware/
-- thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
-c:\users\username\qmk_firmware\thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
+c:\users\username\qmk_firmware\
 - thumbsup_rev5_promicro_unibody_5x12_default_5x12_v5_via.hex
 
 /home/username/qmk_firmware/keyboards/thumbsup/keymaps/default_5x12_v5_via/
