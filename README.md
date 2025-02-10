@@ -1,3 +1,5 @@
+![image](https://github.com/marcellofchua/Cyberdeck-Thumbsup/blob/main/cyberdeck1.png)
+
 # Cyberdeck-Thumbsup
 Files for my Thumbsup Cyberdeck project.
 I bought the v5 and two v8 Thumbsup Keyboard PCBs directly from https://www.etsy.com/shop/ThumbsUpKeyboards.
